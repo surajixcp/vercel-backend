@@ -30,7 +30,7 @@ app.use(cors({
  origin: [
    "http://localhost:5173",
    "http://localhost:5174",
-   "https://vercel-backend-two-cyan.vercel.app",
+   "https://vercel-backend-one-jade.vercel.app",
    process.env.FRONTEND_URL
  ].filter(Boolean),
  credentials: true
